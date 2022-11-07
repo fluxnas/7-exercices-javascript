@@ -1,14 +1,14 @@
 const prompt = require("prompt-sync")();
 
-// // Write an algorithms which receives an integers n and prints:
-// // the numbers from 1 to n :
-// var n = prompt("a partir de 1, entre un nombre : ");
-// var nombre = 1; 
-// while (nombre <= n) 
-// {
-// 	console.log("le chiffre" + nombre);
-// 	nombre++;
-// }
+// Write an algorithms which receives an integers n and prints:
+// the numbers from 1 to n :
+var n = prompt("a partir de 1, entre un nombre : ");
+var nombre = 1; 
+while (nombre <= n) 
+{
+	console.log("le chiffre" + nombre);
+	nombre++;
+}
 
 
 
@@ -68,24 +68,60 @@ const prompt = require("prompt-sync")();
 
 
 // // Write an algorithm which throws a dice a given number of time and count the number of time a certain number is received.
-
-// nbrlancer = Math.random()*100;
-// var nbr = 0;
+// ///////// PAS REUSSIE PAS COMPRIS
+// var lancer = prompt("entrer un nombre : ");
+// var nbrlancer = 0
 
 // let min = 1;
 // let max = 6;
-// var resultat = Math.floor(Math.random()* (max - min + 1 ) + min);
 // //The maximum is inclusive and the minimum is inclusive
 
-// var somme = 0;
+// let tableau = new Array() 
 
-
-// while (nbr<nbrlancer)
-// {
-// 	var somme2 = somme + resultat
-
-// 	nbr++
+// while (nbrlancer < lancer) {
+// 	var resultat = Math.floor(Math.random()* (max - min) + min);
+// 	newlenght = tableau.push(resultat);
+// 	nbrlancer++;
+// 	console.log(tableau)
+// 	forEach tableau[]
+// 	if 
 // }
+
+
+// // Write an algorithm which prints all the even numbers 
+// // from 0 to a given number.
+
+// var nombre = prompt("entrer un nombre : ")
+// var nombrePair = nombre%2
+
+// if (nombrePair = 0) {
+// 	console.log(nombre)
+	
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
